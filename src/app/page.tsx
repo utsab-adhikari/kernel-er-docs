@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
-      {/* ================= HERO ================= */}
       <div className="mb-16 sm:mb-20">
         <h2 className="mb-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
           kernel-er
@@ -37,9 +36,8 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ================= ENTRY FLOW ================= */}
       <div className="mb-16 sm:mb-20 grid gap-4 sm:gap-5 md:grid-cols-3">
-        {/* README */}
+
         <Link
           href="/readme"
           className="group border border-neutral-800 bg-neutral-900/40 p-5 transition hover:border-neutral-500 hover:bg-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-500/40"
@@ -60,7 +58,6 @@ export default function HomePage() {
           </p>
         </Link>
 
-        {/* Manifesto */}
         <Link
           href="/manifesto"
           className="group border border-neutral-800 bg-neutral-900/40 p-5 transition hover:border-neutral-500 hover:bg-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-500/40"
@@ -81,7 +78,6 @@ export default function HomePage() {
           </p>
         </Link>
 
-        {/* Philosophy */}
         <Link
           href="/philosophy"
           className="group border border-neutral-800 bg-neutral-900/40 p-5 transition hover:border-neutral-500 hover:bg-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-500/40"
@@ -103,7 +99,6 @@ export default function HomePage() {
         </Link>
       </div>
 
-      {/* ================= CORE PRINCIPLES ================= */}
       <div className="mb-16 sm:mb-20 grid gap-8 md:grid-cols-3">
         <div>
           <h3 className="mb-2 text-sm font-semibold text-neutral-100">
@@ -133,8 +128,7 @@ export default function HomePage() {
           </p>
         </div>
       </div>
-
-      {/* ================= ROADMAP ================= */}
+      
       <div className="border border-neutral-800 p-6 sm:p-8">
         <h3 className="mb-4 text-lg font-semibold text-neutral-100">
           Long-Term Vision
