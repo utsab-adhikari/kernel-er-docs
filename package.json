@@ -11,7 +11,11 @@
   "dependencies": {
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "github-markdown-css": "^5.8.1",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -22,5 +26,14 @@
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "An Official Documentation for kernel-er Operating System Project",
+  "keywords": [
+    "kernel-er",
+    "documentation",
+    "docs",
+    "operating system",
+    "os-project"
+  ],
+  "author": "Utsab Adhikari"
 }
