@@ -40,11 +40,7 @@ async function renderMarkdown(markdown: string) {
   return processed.toString();
 }
 
-export default async function ReadmePage({
-  searchParams,
-}: {
-  searchParams: { src?: string };
-}) {
+export default async function ReadmePage() {
   const mdSource = "https://github.com/utsab-adhikari/kernel-er/blob/main/philosophy.md"
 
   let content = "";
@@ -55,7 +51,7 @@ export default async function ReadmePage({
   } catch (err: any) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16 text-sm text-red-400">
-        Failed to load README markdown.
+        Failed to load Philosophy markdown.
         <div className="mt-2 text-xs text-neutral-500">{err.message}</div>
       </div>
     );
@@ -71,7 +67,7 @@ export default async function ReadmePage({
               <span className="text-neutral-400">-er</span>
             </Link>
             <span className="text-neutral-500"> / </span>
-            <span className="text-neutral-100">README.md</span>
+            <span className="text-neutral-100">Philosophy</span>
           </h1>
 
           <span className="inline-flex w-fit items-center border border-neutral-700 px-2 py-0.5 text-[11px] text-neutral-500">

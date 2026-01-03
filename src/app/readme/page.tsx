@@ -40,11 +40,7 @@ async function renderMarkdown(markdown: string) {
   return processed.toString();
 }
 
-export default async function ReadmePage({
-  searchParams,
-}: {
-  searchParams: { src?: string };
-}) {
+export default async function ReadmePage() {
   const mdSource ="https://github.com/utsab-adhikari/kernel-er/blob/main/README.md";
 
   let content = "";
